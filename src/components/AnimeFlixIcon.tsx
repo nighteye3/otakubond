@@ -3,7 +3,6 @@ export interface AnimeFlixProps {
 
 const AnimeFlixIcon: React.FC<AnimeFlixProps> = () => (
    <Image
-      loader={myLoader}
       src="https://www.linkpicture.com/q/1585311326229.png"
       alt="Logo"
       width={150}
