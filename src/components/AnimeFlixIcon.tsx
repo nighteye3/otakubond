@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
 export interface AnimeFlixProps {
+  className:string
 }
 
 const AnimeFlixIcon: React.FC<AnimeFlixProps> = () => (
